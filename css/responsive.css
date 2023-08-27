@@ -1,0 +1,734 @@
+/* ------------------------------------------------
+Template Name: Hevin - Personal Portfolio/CV HTML Template
+Author: jandj team
+------------------------------------------------ */
+
+@media (max-width: 1600px) {
+    .jnj-reviews-img {
+        left: 0;
+        transform: inherit;
+        width: 200px;
+    }
+}
+
+@media (max-width: 1365px) {
+    .jnj-footer .jnj-footer-top .jnj-contact-area {
+        padding-right: 100px;
+    }
+    .jnj-contact-form {
+        width: 560px;
+        height: 560px;
+    }
+    .jnj-footer .jnj-footer-top .container {
+        padding: 0 30px;
+    }
+    .single-services .jnj-sidebar {
+        padding: 30px !important;
+    }
+    .jnj-blog-right-sidebar .jnj-sidebar {
+        padding: 30px;
+    }
+    .jnj-blog-right-sidebar .jnj-content-area {
+        padding-left: 30px;
+    }
+    .blog .jnj-content-area {
+        padding-left: 15px;
+    }
+    .single-services .jnj-content-service {
+        padding-right: 30px;
+    }
+    .single.single-project .site-content.container {
+        padding: 0 30px;
+    }
+    .jnj-header-item-2 .jnj-header-overlay .jnj-menu-wrapper .container {
+        padding: 0 30px;
+    }
+    .banner-media .jnj-contact-us-social {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .single-project .jnj-project-details ul,
+    .single-project .jnj-project-details ul.jnj-project-detail-info {
+        padding-left: 0;
+    }
+    .jnj-heading-item-1 h3.jnj-heading-title,
+    h4.jnj-service-title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .jnj-contact-form {
+        width: 500px;
+        height: 500px;
+    }
+    .jnj-header-item-1 .jnj-nav-area div>div>ul>li {
+        margin: 0 21px;
+    }
+    #jnj-pricing .jnj-pricing-box1 {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+    #jnj-pricing .jnj-pricing-box3 {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    #jnj-banner .jnj-heading-item-1 .jnj-heading-title {
+        font-size: 80px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .jnj-header-item-2 .header-container .jnj-nav-area div>div>ul>li {
+        margin: 0 20px;
+    }
+    .jnj-header-item-1 .jnj-nav-area div>div>ul>li {
+        margin: 0 18px;
+    }
+}
+
+@media(max-width:1024px) {
+    #page.site {
+        overflow: hidden;
+    }
+    .container {
+        max-width: none;
+    }
+    /********** Pull right **********/
+    .jnj-pull-right .elementor-widget-wrap>.elementor-element {
+        width: 420px;
+    }
+    /********** .jnj-header-item-1 **********/
+    .jnj-header-item-1 .container {
+        padding: 0 30px;
+    }
+    /********** Header **********/
+    .header .jnj-menu-wrapper {
+        padding: 25px 15px;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+    }
+    .header .jnj-menu-wrapper.jnj-sticky {
+        padding: 15px 0;
+    }
+    .jnj-quote-form-second-bg .elementor-background-overlay {
+        display: none !important;
+    }
+    .jnj-newslatter {
+        text-align: center;
+    }
+    .jnj-newslatter .mc4wp-form-fields {
+        display: block;
+    }
+    .jnj-newslatter .mc4wp-form-fields .jnj-newslatter-title {
+        margin-bottom: 20px;
+    }
+    .jnj-newslatter .jnj-newslatter-title h3 {
+        margin-right: 0;
+    }
+    .jnj-footer .footer-content {
+        padding-top: 200px;
+    }
+    .jnj-project-item-1 .row .col-lg-6.col-md-6.col-sm-12:nth-of-type(4n+2),
+    .jnj-project-item-1 .row .col-lg-6.col-md-6.col-sm-12:nth-of-type(4n+3) {
+        padding: 90px;
+    }
+    /********** contact-form  **********/
+    .jnj-header-item-2 .jnj-menu-right-items {
+        display: none !important;
+    }
+    .jnj-footer .jnj-footer-top {
+        margin: 100px 0;
+    }
+    footer .jnj-heading-item-1 .jnj-heading-title,
+    .jnj-footer .jnj-footer-top .jnj-contact-area .jnj-heading-title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .jnj-footer .col-lg-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .jnj-footer .jnj-footer-top .jnj-contact-area {
+        padding-right: 0;
+    }
+    /********** Pull right **********/
+    .jnj-pull-right .elementor-widget-wrap>.elementor-element {
+        width: 100%;
+    }
+    .jnj-quote-form-second {
+        -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    .jnj-service-item-1 .jnj-service-area .jnj-service-inner .jnj-service-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .jnj-pricing-item-1 .jnj-pricing-header .jnj-pricing-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .jnj-heading-item-1 h3.jnj-heading-title,
+    h4.jnj-service-title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .jnj-contact-form {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    /********** jnj-blog-item-1 **********/
+    .jnj-blog-item-1 .jnj-blog-area .jnj-blog-image {
+        width: 250px;
+        top: 25px;
+    }
+    /* Spacing */
+    section {
+        padding: 80px 15px 80px 15px;
+    }
+    header .navbar-nav .nav-item {
+        margin: 0;
+        padding: 10px;
+    }
+    #jnj-aboutus .jnj-about-top {
+        margin-bottom: 80px;
+    }
+    #jnj-aboutus .jnj-about-bottom .jnj-education-box,
+    #jnj-aboutus .jnj-about-bottom .jnj-experience-box {
+        padding: 0 30px 50px 15px;
+    }
+    #jnj-banner {
+        padding: 120px 15px 80px;
+    }
+    #jnj-banner .row-reverse-resp-media {
+        flex-direction: column-reverse;
+    }
+    #jnj-banner .row-reverse-resp-media .col-lg-6 {
+        width: 100%;
+    }
+    #jnj-banner .jnj-heading-item-1 {
+        margin-top: 50px;
+    }
+    #jnj-banner .jnj-banner-img-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #jnj-banner .jnj-heading-item-1 .jnj-heading-title {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    #jnj-banner .jnj-banner-infobox {
+        padding: 100px 0 0;
+    }
+    #jnj-aboutus {
+        background-image: none;
+    }
+    .jnj-rating-widget-container,
+    .jnj-reviews-widget-container,
+    .jnj-reviews-img img,
+    .jnj-reviews-img-2 img {
+        display: none;
+    }
+    section#jnj-testimonial .jnj-swiper-reviews {
+        padding: 0 0 80px;
+    }
+    section#jnj-projects {
+        padding: 120px 15px 80px 15px;
+    }
+    .single-services {
+        padding: 80px 0 80px;
+    }
+    .jnj-project-details {
+        padding: 80px 15px 80px;
+    }
+    .jnj-blog-all {
+        padding: 80px 15px 80px 15px;
+    }
+    .jnj-portfolio-all {
+        padding: 80px 15px 80px 15px;
+    }
+    section#jnj-testimonial {
+        padding-bottom: 60px !important;
+    }
+    section#jnj-testimonial .col-lg-2,
+    section#jnj-testimonial .col-lg-7,
+    section#jnj-testimonial .col-lg-3 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container,
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1430px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    /********** footer **********/
+    .jnj-footer-topbar .jnj-social {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .jnj-footer .footer-content .col-sm-6 {
+        padding-bottom: 50px;
+    }
+    .jnj-footer .footer-content {
+        padding-top: 300px;
+        padding-bottom: 0px;
+    }
+    .single-team .jnj-team-image img {
+        margin-bottom: 30px;
+    }
+    .jnj-blog .jnj-content-area {
+        padding: 0 30px;
+    }
+    .jnj-blog .jnj-sidebar {
+        padding: 30px;
+    }
+    /*====================/====================/
+           Sidebar Comman Details
+/====================/====================*/
+    .archive .site-content .jnj-content-area,
+    .search-results .site-content .jnj-content-area,
+    .single-services .site-main .jnj-content-service,
+    .single-post .site-main .jnj-content-area,
+    .blog .site-main .jnj-content-area,
+    .page .site-main .jnj-content-area,
+    .single-team .site-main .jnj-content-team {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .archive .site-content .jnj-widget-area,
+    .search-results .site-content .jnj-widget-area,
+    .single-post .site-main .jnj-widget-area,
+    .blog .site-main .jnj-widget-area,
+    .page .site-main .jnj-widget-area,
+    .single-team .site-main .jnj-widget-team,
+    .single-services .site-main .jnj-widget-sercice {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+    .single-project .site-content .site-main {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .jnj-project-item-1 .row .col-lg-6.col-md-6.col-sm-12:nth-of-type(4n+2),
+    .jnj-project-item-1 .row .col-lg-6.col-md-6.col-sm-12:nth-of-type(4n+3) {
+        padding: 60px;
+    }
+    /********** sidebar  **********/
+    .jnj-blog-right-sidebar .jnj-content-area {
+        padding-right: 30px;
+    }
+    .blog .jnj-content-area {
+        padding-right: 30px;
+    }
+    .blog .jnj-content-area {
+        padding-left: 30px;
+    }
+    .single-services .jnj-content-service {
+        padding-left: 30px;
+    }
+    .single-services .jnj-sidebar {
+        padding: 30px !important;
+    }
+    .jnj-blog-right-sidebar .jnj-sidebar {
+        padding: 30px;
+    }
+    /********** jnj-blog-item-1 **********/
+    .jnj-blog-item-1 .jnj-blog-area .jnj-blog-image {
+        width: 200px;
+        top: 20px;
+    }
+    header a.btn {
+        display: none !important;
+    }
+    #jnj-services .jnj-sticky-service {
+        margin-bottom: 60px;
+    }
+    section#jnj-pricing {
+        padding: 80px 15px 50px 15px;
+    }
+    #jnj-pricing .jnj-pricing-box2 {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    .jnj-pricing-item-1 {
+        margin-bottom: 30px;
+    }
+    section#jnj-blog {
+        padding: 100px 15px 50px 15px;
+    }
+    #jnj-blog .jnj-sticky-blog {
+        margin-bottom: 40px;
+        padding-right: 0;
+    }
+    .jnj-sidebar {
+        border-left: none;
+        padding: 30px;
+    }
+    #jnj-banner .jnj-heading-item-1 {
+        margin-right: 0;
+    }
+    .navbar-nav .nav-item.dropdown>.dropdown-menu {
+        position: relative;
+        top: 0;
+        width: 100%;
+        border: none;
+    }
+    .navbar-nav .nav-item.dropdown .dropdown-menu li:last-child a {
+        border-bottom: 1px solid #f2f2f2;
+    }
+    .jnj-service-item-1,
+    .jnj-skill-area,
+    #jnj-blog .col-lg-7 {
+        margin-top: 40px;
+    }
+}
+
+@media screen (min-width: 992px) {
+    .site-content .jnj-widget-area.col-lg-4 {
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .site-content .jnj-content-area.col-lg-8 {
+        -ms-flex: 0 0 70%;
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 783px) {
+    .admin-bar header .jnj-header-fix {
+        margin-top: 46px;
+    }
+}
+
+@media (max-width: 767px) {
+    .jnj-contact-form .jnj-button-text {
+        position: relative;
+        display: inline-block;
+        left: 0;
+        bottom: 0;
+    }
+    .single-services .site-main .jnj-content-service,
+    .single-post .site-main .jnj-content-area,
+    .blog .site-main .jnj-content-area,
+    .page .site-main .jnj-content-area,
+    .single-team .site-main .jnj-content-team {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .single-post .site-main .jnj-widget-area,
+    .blog .site-main .jnj-widget-area,
+    .page .site-main .jnj-widget-area,
+    .single-team .site-main .jnj-widget-team,
+    .single-services .site-main .jnj-widget-sercice {
+        margin-bottom: 80px;
+        margin-top: 40px;
+    }
+    .single-project .site-content .site-main {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    /********** Breadcrumb **********/
+    .jnj-breadcrumb {
+        padding: 140px 0 100px 0;
+    }
+    .jnj-breadcrumb .jnj-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .jnj-loader .jnj-loader-title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .post-navigation .nav-links {
+        display: inline-block;
+        width: 100%;
+    }
+    .post-navigation .nav-links {
+        margin: 30px 0;
+    }
+    .post-navigation .nav-links .nav-previous,
+    .post-navigation .nav-links .nav-next {
+        width: 100%;
+    }
+    .post-navigation .nav-links .nav-previous {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .post-navigation .nav-links .nav-next {
+        margin-left: 0px;
+    }
+    .post-navigation .nav-links .nav-next a {
+        display: inline-flex;
+    }
+    .comments-area {
+        margin-top: 20px;
+    }
+    .jnj-header-item-2 .jnj-sticky .jnj-site-logo,
+    .jnj-header-item-2 .jnj-sticky .jnj-site-sticky-logo {
+        width: 120px;
+    }
+    .jnj-service-titleh4 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .single-project .jnj-project-details ul li,
+    .single-project .jnj-project-details ul.jnj-project-detail-info li {
+        width: 100%;
+        margin: 6px 0;
+    }
+    .single-project .jnj-project-details ul.jnj-project-detail-info li {
+        margin: 6px 0 30px;
+    }
+    .single-project .jnj-project-details ul.jnj-project-detail-info li {
+        padding-right: 0;
+    }
+    .single-project .jnj-project-details ul li {
+        padding-right: 30px;
+    }
+    .jnj-blog-standard .jnj-post-top .jnj-post-title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    /********** Newslatter **********/
+    .jnj-newslatter .mc4wp-form-fields {
+        display: block;
+        text-align: center;
+    }
+    .jnj-newslatter .mc4wp-form-fields .jnj-newslatter-title {
+        margin-bottom: 20px;
+    }
+    .jnj-footer-bottom {
+        padding: 0px;
+    }
+    /********** Error 404 **********/
+    .error-404 h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    /********** project **********/
+    .jnj-project-item-1 .row .col-lg-6.col-md-6.col-sm-12:nth-of-type(4n+2),
+    .jnj-project-item-1 .row .col-lg-6.col-md-6.col-sm-12:nth-of-type(4n+3) {
+        padding: 15px;
+    }
+    /********** Contact Form **********/
+    .jnj-contact-form {
+        border: none;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    .jnj-contact-form button {
+        position: relative;
+        bottom: auto;
+        right: auto;
+    }
+    .jnj-service-item-1 .jnj-service-area .jnj-service-inner .jnj-service-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .jnj-service-item-1 .jnj-service-area .jnj-service-inner .jnj-service-title {
+        padding-right: 0%;
+    }
+    .jnj-pricing-item-1 .jnj-pricing-header .jnj-pricing-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .jnj-blog-item-1 .jnj-blog-area .jnj-blog-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .jnj-contact-form .jnj-heading-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .jnj-footer .jnj-footer-top {
+        margin: 80px 0;
+    }
+    footer .jnj-heading-item-1 .jnj-heading-title,
+    .jnj-footer .jnj-footer-top .jnj-contact-area .jnj-heading-title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .jnj-marquee .jnj-marquee-items {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .jnj-project-item-1 .jnj-project-area {
+        margin-bottom: 30px;
+    }
+    .jnj-heading-item-1 h3.jnj-heading-title,
+    h4.jnj-service-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .jnj-contact-form {
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+    /********** jnj-blog-item-1 **********/
+    .jnj-blog-item-1 .jnj-blog-area .jnj-blog-image {
+        width: 180px;
+        top: 18px;
+    }
+    /* Spacing */
+    section {
+        padding: 60px 15px 60px 15px;
+    }
+    #jnj-banner {
+        padding: 100px 15px 60px;
+    }
+    #jnj-banner .jnj-heading-item-1 .jnj-heading-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #jnj-banner .jnj-banner-infobox {
+        padding: 60px 0 0;
+        display: inherit;
+    }
+    .accordion {
+        margin-top: 30px;
+    }
+    .jnj-blog-detail-img img {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .admin-bar .header .jnj-header-fix {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .jnj-blog-standard .jnj-entry-footer {
+        display: block !important;
+    }
+    .jnj-blog-standard .jnj-entry-footer .jnj-entry-share {
+        margin-top: 20px;
+    }
+    .admin-bar header .jnj-header-fix {
+        top: 0px;
+    }
+    .comment-respond .jnj-comment-form p.comment-form-url,
+    .comment-respond .jnj-comment-form p.comment-form-email,
+    .comment-respond .jnj-comment-form p.comment-form-author {
+        -ms-flex: 100%;
+        flex: 100%;
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .comment-list .comment-respond {
+        padding-left: 0px;
+    }
+    /********** Comman css **********/
+    .jnj-comment-avatar {
+        float: none;
+    }
+    .comment-list .jnj-comment-descript {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .comment-respond .comment-form .jnj-comment-form {
+        display: block;
+    }
+    .comment-respond .jnj-comment-form p.comment-form-author {
+        width: 100%;
+        margin-left: 0;
+    }
+    /********** Quote form **********/
+    .jnj-quote-form .jnj-language-arrow:before {
+        content: none;
+    }
+    .jnj-quote-form.jnj-quote-form-second [type=submit].wpcf7-submit {
+        margin-top: 20px;
+    }
+    /********** jnj-blog-item-1 **********/
+    .jnj-blog-item-1 .jnj-blog-area .jnj-blog-image {
+        width: 150px;
+        top: 15px;
+    }
+    /********** jnj-aboutus **********/
+    .jnj-about-top .row .col-lg-3.col-md-3.col-sm-6 {
+        width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 479px) {
+    .jnj-service-item-1 .jnj-service-area {
+        display: block;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+    .jnj-service-item-1 .jnj-service-area .jnj-service-inner {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .jnj-blog-item-1 .jnj-blog-area {
+        display: grid;
+        padding-right: 0;
+    }
+    .jnj-blog-item-1 .jnj-blog-area .jnj-blog-inner {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .jnj-header-item-2 .jnj-button a {
+        display: none;
+    }
+    .jnj-button-item-1.primary-color {
+        display: inline-block;
+    }
+    #jnj-banner .jnj-button-item-1.transparent-color {
+        margin-top: 15px;
+        margin-left: 0;
+        display: block;
+        text-align: left;
+        padding: 25px;
+        width: max-content;
+    }
+}
+
+@media (max-width: 450px) {
+    .jnj-newslatter .jnj-footer-newslatter button {
+        position: inherit;
+        top: 20px;
+    }
+    .jnj-footer .footer-content {
+        padding-top: 380px;
+    }
+    .jnj-education-item-1 .jnj-education-area {
+        display: block !important;
+    }
+    .jnj-education-item-1 .jnj-education-year {
+        margin-right: 0;
+        margin-bottom: 15px;
+        min-width: auto;
+    }
+}
+
+@media (max-width: 359px) {
+    .jnj-pricing-item-1 {
+        padding: 30px;
+    }
+    .jnj-pricing-item-1 .jnj-pricing-header::after {
+        left: -30px;
+        width: calc(100% + 30px);
+    }
+    .jnj-iconbox-item-2 .jnj-iconbox-area {
+        display: block !important;
+    }
+    .jnj-iconbox-item-2 .jnj-iconbox-details {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
